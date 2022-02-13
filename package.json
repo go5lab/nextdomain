@@ -1,0 +1,31 @@
+{
+  "name": "nextdomain",
+  "description": "🍺NextDomainはFreenomAPIを使用した無料でドメインを取得することが可能なサービスです",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export && next-sitemap --config sitemap.config.js",
+    "export": "next export",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/go5lab/nextdomain.git"
+  },
+  "homepage": "https://nextdomain.space/",
+  "dependencies": {
+    "@types/react": "^17.0.39",
+    "dotenv": "^16.0.0",
+    "next": "^12.0.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass": "^1.49.7",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.17",
+    "next-sitemap": "^2.1.14"
+  }
+}

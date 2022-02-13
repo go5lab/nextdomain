@@ -1,0 +1,25 @@
+$black : #16181d;
+.footer {
+    margin-top: 15px;
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: $black;
+    color: white;
+    line-height: 55px;
+    div {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 14px;
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        .link {
+            color: white;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+    }
+}

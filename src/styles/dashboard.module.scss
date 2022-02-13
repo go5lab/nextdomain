@@ -1,0 +1,15 @@
+$mobile: 767px;
+.main {
+    text-align: center;
+    min-height: 97vh;
+    background-color: #fafafa;
+}
+
+
+// mobile
+@media screen and (max-width: $mobile) {
+    .main {
+        max-width: 100vw;
+        text-align: center;
+    }
+}

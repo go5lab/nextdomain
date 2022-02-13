@@ -1,50 +1,41 @@
 $mobile: 767px;
+.header {
+    width: 100vw;
+    height: 7vh;
+    .logo {
+        height: 7vh;
+        line-height: 7vh;
+        background-color: black;
+        color: #fff;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 10px;
+        margin-left: 5vw;
+    }
+}
 .main {
     text-align: center;
     min-height: 97vh;
     margin-top: 3vh;
-    .header {
-        text-align: left;
-        width: fit-content;
-    }
-    .logo {
-        font-size: 2rem;
-        font-weight: bold;
-        background-color: #000;
-        color: #fff;
-        width: fit-content;
-        margin-left: 5vw;
-        padding: 5px;
-    }
-    .stressfree {
-        margin-top: 8vh;
-        margin-left: 5vw;
-        font-size: 13rem;
-        font-weight: bold;
-        color: #000;
-        margin-bottom: 2rem;
-        text-align: left;
-    }
-    .start_button {
-        border: none;
-        background-color: #000;
-        color: #fff;
-        padding: 10px;
-        font-size: 1.5rem;
-        width: 130px;
-        height: 50px;
+    .search_box {
+        width: 40vw;
+        height: 40vh;
+        margin: 15px auto;
+        background-color: #fff;
         border-radius: 10px;
-        margin: 20px;
-        cursor: pointer;
-        box-shadow: 0 0 17px rgb(88, 88, 88);
-        transition: 0.5s;
-    }
-    .start_button:hover {
-        box-shadow: 0 0 0 gray;
-        transition: 0.5s;
-    }
-    .descripton {
-        margin: 15px;
+        box-shadow: 0 0 7px rgba(0, 0, 0, 0.342);
+        padding: 10px;
+        .search_input {
+            height: 30px;
+            border-radius: 0;
+            border: 1px solid #ccc;
+        }
+        .search_btn {
+            border-radius: 0px;
+            height: 30px;
+            border: #ccc 1px solid;
+            padding: 5px;
+        }
     }
 }
 
@@ -54,23 +45,5 @@ $mobile: 767px;
     .main {
         max-width: 100vw;
         text-align: center;
-        .logo {
-            font-size: 1.7rem;
-            font-weight: bold;
-            background-color: #000;
-            color: #fff;
-            width: fit-content;
-            margin-left: 5vw;
-            padding: 5px;
-        }
-        .stressfree {
-            margin-top: 8vh;
-            margin-left: 5vw;
-            font-size: 4rem;
-            font-weight: bold;
-            color: #000;
-            margin-bottom: 2rem;
-            text-align: left;
-        }
     }
 }

@@ -1,0 +1,2 @@
+# nextdomain
+🍺NextDomainはFreenomAPIを使用した無料でドメインを取得することが可能なサービスです
